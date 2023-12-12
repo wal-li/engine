@@ -1,6 +1,6 @@
 {
   "name": "@wal-li/engine",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "description": "The engine to run website.",
   "main": "src/index.js",
   "type": "module",
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "dev": "node src/index.js",
-    "test": "mocha"
+    "test": "mocha",
+    "beta": "npm publish --access public --tag beta"
   },
   "keywords": [],
   "author": "HaoVA <hi@haova.me> (https://www.haova.me)",
