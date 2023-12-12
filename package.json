@@ -1,0 +1,26 @@
+{
+  "name": "@wal-li/engine",
+  "version": "1.0.0",
+  "description": "The engine to run website.",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "we": "src/we.js"
+  },
+  "scripts": {
+    "dev": "node src/index.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "HaoVA <hi@haova.me> (https://www.haova.me)",
+  "license": "MIT",
+  "dependencies": {
+    "@wal-li/server": "^1.0.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
+  }
+}
