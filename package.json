@@ -1,6 +1,6 @@
 {
   "name": "@wal-li/engine",
-  "version": "1.0.0-beta.0",
+  "version": "0.0.1",
   "description": "The engine to run website.",
   "main": "src/index.js",
   "type": "module",
@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "node src/index.js",
     "test": "mocha",
+    "release": "npm publish --access public",
     "beta": "npm publish --access public --tag beta"
   },
   "keywords": [],
@@ -17,6 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "@wal-li/server": "^1.0.2",
+    "koa-static": "^5.0.0",
     "yargs": "^17.7.2"
   },
   "devDependencies": {
