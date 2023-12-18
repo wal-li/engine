@@ -1,6 +1,6 @@
 {
   "name": "@wal-li/engine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The engine to run website.",
   "main": "src/index.js",
   "type": "module",
